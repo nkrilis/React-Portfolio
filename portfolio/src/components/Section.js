@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../styles/styles.css';
+// import '../styles/styles.css';
 import gitfit from '../img/portfolio/gitfit.png'
 import idrink from '../img/portfolio/idrink.png'
 import socialApi from '../img/portfolio/social-api.png'
