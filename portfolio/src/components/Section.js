@@ -6,70 +6,76 @@ function Section() {
   // create main portfolio section
   return (
     // <!-- Portfolio Section-->
-        <section class="page-section portfolio" id="portfolio">
-            <div class="container">
+        <section className="page-section portfolio" id="portfolio">
+            <div className="container">
                 {/* <!-- Portfolio Section Heading--> */}
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+                <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
                 {/* <!-- Icon Divider--> */}
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
+                <div className="divider-custom">
+                    <div className="divider-custom-line"></div>
+                    <div className="divider-custom-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-kanban-fill" viewBox="0 0 16 16">
+                            <path d="M2.5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2h-11zm5 2h1a1
+                             1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1zm-5 1a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v7a1 1 0 0 1-1 
+                             1h-1a1 1 0 0 1-1-1V3zm9-1h1a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1z"/>
+                        </svg>
+                    </div>
+                    <div className="divider-custom-line"></div>
                 </div>
                 {/* <!-- Portfolio Grid Items--> */}
-                <div class="row justify-content-center">
+                <div className="row justify-content-center">
                     {/* <!-- Portfolio Item 1--> */}
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                    <div className="col-md-6 col-lg-4 mb-5">
+                        <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="..." />
+                            <img className="img-fluid" src="assets/img/portfolio/gitfit.png" alt="..." />
                         </div>
                     </div>
                     {/* <!-- Portfolio Item 2--> */}
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                    <div className="col-md-6 col-lg-4 mb-5">
+                        <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                            <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cake.png" alt="..." />
+                            <img className="img-fluid" src="assets/img/portfolio/idrink.png" alt="..." />
                         </div>
                     </div>
                     {/* <!-- Portfolio Item 3--> */}
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                    <div className="col-md-6 col-lg-4 mb-5">
+                        <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                            <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="..." />
+                            <img className="img-fluid" src="assets/img/portfolio/tech-blog.png" alt="..." />
                         </div>
                     </div>
                     {/* <!-- Portfolio Item 4--> */}
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                    <div className="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                            <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/game.png" alt="..." />
+                            <img className="img-fluid" src="assets/img/portfolio/text-editor.png" alt="..." />
                         </div>
                     </div>
                     {/* <!-- Portfolio Item 5--> */}
-                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                    <div className="col-md-6 col-lg-4 mb-5 mb-md-0">
+                        <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                            <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/safe.png" alt="..." />
+                            <img className="img-fluid" src="assets/img/portfolio/social-api.png" alt="..." />
                         </div>
                     </div>
                     {/* <!-- Portfolio Item 6--> */}
-                    <div class="col-md-6 col-lg-4">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                    <div className="col-md-6 col-lg-4">
+                        <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+                            <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/submarine.png" alt="..." />
+                            <img className="img-fluid" src="assets/img/portfolio/other.png" alt="..." />
                         </div>
                     </div>
                 </div>

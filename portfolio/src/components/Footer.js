@@ -5,33 +5,28 @@ import "../styles/styles.css";
 function Footer () {
     return (
         // <!-- Footer-->
-        <footer class="footer text-center">
-            <div class="container">
-                <div class="row">
+        <footer className="footer text-center">
+            <div className="container">
+                <div className="row">
                     {/* <!-- Footer Location--> */}
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Location</h4>
-                        <p class="lead mb-0">
-                            2215 John Daniel Drive
+                    <div className="col-lg-4 mb-5 mb-lg-0">
+                        <h4 className="text-uppercase mb-4">Location</h4>
+                        <p className="lead mb-0">
+                            Toronto, ON
                             <br />
-                            Clark, MO 65243
                         </p>
                     </div>
                     {/* <!-- Footer Social Icons--> */}
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Around the Web</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
+                    <div className="col-lg-4 mb-5 mb-lg-0">
+                        <h4 className="text-uppercase mb-4">My Links</h4>
+                        <a className="btn-rounded btn-outline-light btn-social mx-1" href="https://github.com/nkrilis"><i className="fab fa-fw fa-github"></i></a>
+                        <a className="btn-rounded btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/nicholas-krilis/"><i className="fab fa-fw fa-linkedin-in"></i></a>
                     </div>
                     {/* <!-- Footer About Text--> */}
-                    <div class="col-lg-4">
-                        <h4 class="text-uppercase mb-4">About Freelancer</h4>
-                        <p class="lead mb-0">
-                            Freelance is a free to use, MIT licensed Bootstrap theme created by
-                            <a href="http://startbootstrap.com">Start Bootstrap</a>
-                            .
+                    <div className="col-lg-4">
+                        <h4 className="text-uppercase mb-4">Thank You</h4>
+                        <p className="lead mb-0">
+                            Thank you for visting my website, I look forward to working with you soon!
                         </p>
                     </div>
                 </div>
