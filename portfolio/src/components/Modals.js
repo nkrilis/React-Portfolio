@@ -2,6 +2,13 @@ import React from "react";
 
 import "../styles/styles.css";
 
+import gitfit from '../img/portfolio/gitfit.png'
+import idrink from '../img/portfolio/idrink.png'
+import socialApi from '../img/portfolio/social-api.png'
+import techBlog from '../img/portfolio/tech-blog.png'
+import textEditor from '../img/portfolio/text-editor.png'
+import other from '../img/portfolio/other.png'
+
 function Modals () {
     return (
         <>
@@ -24,7 +31,7 @@ function Modals () {
                                             <div className="divider-custom-line"></div>
                                         </div>
                                         {/* <!-- Portfolio Modal - Image--> */}
-                                       <a href="https://git-fit-1.herokuapp.com/"><img className="img-fluid rounded mb-5" src="assets/img/portfolio/gitfit.png" alt="gitfit project" /> </a>
+                                       <a href="https://git-fit-1.herokuapp.com/"><img className="img-fluid rounded mb-5" src={gitfit} alt="gitfit project" /> </a>
                                         {/* <!-- Portfolio Modal - Text--> */}
                                         <p className="mb-4">GitFit is an application that allows users to input their info and have a automatically generated fitness plan. 
                                                             The user will not only be able to see their workouts for the week, they will also be able to see their BMR info 
@@ -68,7 +75,7 @@ function Modals () {
                                         </div>
                                         {/* <!-- Portfolio Modal - Image--> */}
                                         <a href="https://nkrilis.github.io/iDrink/">
-                                            <img className="img-fluid rounded mb-5" src="assets/img/portfolio/idrink.png" alt="iDrink Project" />
+                                            <img className="img-fluid rounded mb-5" src={idrink} alt="iDrink Project" />
                                         </a>
                                         {/* <!-- Portfolio Modal - Text--> */}
                                         <p className="mb-4">iDrink is a website where you can familiarize with any alcoholic drink in the world. 
@@ -117,7 +124,7 @@ function Modals () {
                                         </div>
                                         {/* <!-- Portfolio Modal - Image--> */}
                                         <a href="https://nkrilis-tech-blog.herokuapp.com/">
-                                            <img className="img-fluid rounded mb-5" src="assets/img/portfolio/tech-blog.png" alt="Tech Blog Project" />
+                                            <img className="img-fluid rounded mb-5" src={techBlog} alt="Tech Blog Project" />
                                         </a>
                                         {/* <!-- Portfolio Modal - Text--> */}
                                         <p className="mb-4">Tech Blog gives a user the ability to view blog posts made by various users. 
@@ -164,7 +171,7 @@ function Modals () {
                                         </div>
                                         {/* <!-- Portfolio Modal - Image--> */}
                                         <a href="https://pwa-nicks-text-editor.herokuapp.com/">
-                                            <img className="img-fluid rounded mb-5" src="assets/img/portfolio/text-editor.png" alt="Text Editor Project" />
+                                            <img className="img-fluid rounded mb-5" src={textEditor} alt="Text Editor Project" />
                                         </a>
                                         {/* <!-- Portfolio Modal - Text--> */}
                                         <p className="mb-4">This project is a Progressive Web App that allows users to write code with 
@@ -213,7 +220,7 @@ function Modals () {
                                         </div>
                                         {/* <!-- Portfolio Modal - Image--> */}
                                         <a href="https://drive.google.com/file/d/1AdIoUsmwvbhGGLtP447Ssvc-qALzrYS_/view?usp=sharing">
-                                            <img className="img-fluid rounded mb-5" src="assets/img/portfolio/social-api.png" alt="Social Network Project" />
+                                            <img className="img-fluid rounded mb-5" src={socialApi} alt="Social Network Project" />
                                         </a>
                                         {/* <!-- Portfolio Modal - Text--> */}
                                         <p className="mb-4">This application is created through the use of mongoDB, express server, 
@@ -264,7 +271,7 @@ function Modals () {
                                         </div>
                                         {/* < />!-- Portfolio Modal - Image--> */}
                                         <a href="https://github.com/nkrilis">
-                                            <img className="img-fluid rounded mb-5" src="assets/img/portfolio/other.png" alt="Other Projects" />
+                                            <img className="img-fluid rounded mb-5" src={other} alt="Other Projects" />
                                         </a>
                                         {/* < />!-- Portfolio Modal - Text--> */}
                                         <p className="mb-4">Here you can view other projects I have created and am currently working on.</p>

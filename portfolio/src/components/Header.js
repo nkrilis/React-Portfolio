@@ -1,6 +1,7 @@
 import React from 'react';
 
 import '../styles/styles.css';
+import avatar from '../img/portfolio/nick.png'
 
 function Header() {
 
@@ -9,7 +10,7 @@ function Header() {
     <header className="masthead bg-primary text-white text-center">
         <div className="container d-flex align-items-center flex-column">
             {/* <!-- Masthead Avatar Image--> */}
-            <img className="masthead-avatar mb-5" src="assets/img/portfolio/nick.png" alt="..." />
+            <img className="masthead-avatar mb-5" src={avatar} alt="..." />
             {/* <!-- Masthead Heading--> */}
             <h3>Hi there I'm</h3>
             <h1 className="masthead-heading text-uppercase mb-0">Nicholas Krilis</h1>
