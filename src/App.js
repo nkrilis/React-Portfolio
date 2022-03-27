@@ -7,6 +7,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Modals from "./components/Modals";
 import Copyright from "./components/Copyright";
+
 import './App.css';
 
 function App() {
