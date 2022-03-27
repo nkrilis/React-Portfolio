@@ -2,12 +2,12 @@ import React from "react";
 
 // import "../styles/styles.css";
 
-import gitfit from '../img/portfolio/gitfit.png'
-import idrink from '../img/portfolio/idrink.png'
-import socialApi from '../img/portfolio/social-api.png'
-import techBlog from '../img/portfolio/tech-blog.png'
-import textEditor from '../img/portfolio/text-editor.png'
-import other from '../img/portfolio/other.png'
+import gitfit from '../images/gitfit.png'
+import idrink from '../images/idrink.png'
+import socialApi from '../images/social-api.png'
+import techBlog from '../images/tech-blog.png'
+import textEditor from '../images/text-editor.png'
+import other from '../images/other.png'
 
 function Modals () {
     return (

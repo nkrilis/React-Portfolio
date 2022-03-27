@@ -1,7 +1,7 @@
 import React from 'react';
 
 // import '../styles/styles.css';
-import avatar from '../img/portfolio/nick.png'
+import avatar from '../images/nick.png'
 
 function Header() {
 
