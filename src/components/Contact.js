@@ -60,7 +60,7 @@ function Contact () {
                             {/* <!-- has successfully submitted--> */}
                             <div className="d-none" id="submitSuccessMessage">
                                 <div className="text-center mb-3">
-                                    <div className="fw-bolder">Form submission successful!</div>
+                                    <div className="fw-bolder">Thank You! I will be in contact with you soon 😁</div>
 
                                     <br />
                                 </div>
