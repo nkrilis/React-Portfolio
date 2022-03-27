@@ -13,7 +13,7 @@ function Header() {
             <img className="masthead-avatar mb-5" src={avatar} alt="..." />
             {/* <!-- Masthead Heading--> */}
             <h3>Hi there I'm</h3>
-            <h1 className="masthead-heading text-uppercase mb-0">Nicholas Krilis</h1>
+            <h1 className="masthead-heading text-uppercase mb-0">Nick Krilis</h1>
             {/* <!-- Icon Divider--> */}
             <div className="divider-custom divider-light">
                 <div className="divider-custom-line"></div>
