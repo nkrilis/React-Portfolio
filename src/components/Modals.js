@@ -27,16 +27,15 @@ function Modals () {
                                         {/* <!-- Icon Divider--> */}
                                         <div className="divider-custom">
                                             <div className="divider-custom-line"></div>
-                                            <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
+                                            <div className="divider-custom-icon"><h5 className="text-uppercase">click image for deployment</h5></div>
                                             <div className="divider-custom-line"></div>
                                         </div>
                                         {/* <!-- Portfolio Modal - Image--> */}
-                                       <a href="https://git-fit-1.herokuapp.com/"><img className="img-fluid rounded mb-5" src={gitfit} alt="gitfit project" /> </a>
+                                       <a href="https://gitfit-2.herokuapp.com/"><img className="img-fluid rounded mb-5" src={gitfit} alt="gitfit project" /> </a>
                                         {/* <!-- Portfolio Modal - Text--> */}
-                                        <p className="mb-4">GitFit is an application that allows users to input their info and have a automatically generated fitness plan. 
-                                                            The user will not only be able to see their workouts for the week, they will also be able to see their BMR info 
-                                                            including a suggested caloric defecit along with a caloric surplus. A user also has the ability to update their 
-                                                            information at any given time withing their account. You can view some screenshots of the deployed application below.
+                                        <p className="mb-4">GitFit is a React.js-driven application designed to discover and organize your workouts, 
+                                                            track progress, and interact with users and trainers. Node.js and Express.js are used as 
+                                                            the server-side framework, and data is handled by GraphQL, MongoDB and MongoDB Atlas.
                                         </p>
                                         <a href="https://github.com/nkrilis/GitFit">
                                             <button className="btn btn-primary">
@@ -70,7 +69,7 @@ function Modals () {
                                         {/* <!-- Icon Divider--> */}
                                         <div className="divider-custom">
                                             <div className="divider-custom-line"></div>
-                                            <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
+                                            <div className="divider-custom-icon"><h5 className="text-uppercase">click image for deployment</h5></div>
                                             <div className="divider-custom-line"></div>
                                         </div>
                                         {/* <!-- Portfolio Modal - Image--> */}
@@ -119,7 +118,7 @@ function Modals () {
                                         {/* < />!-- Icon Divider--> */}
                                         <div className="divider-custom">
                                             <div className="divider-custom-line"></div>
-                                            <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
+                                            <div className="divider-custom-icon"><h5 className="text-uppercase">click image for deployment</h5></div>
                                             <div className="divider-custom-line"></div>
                                         </div>
                                         {/* <!-- Portfolio Modal - Image--> */}
@@ -166,7 +165,7 @@ function Modals () {
                                         {/* <!-- Icon Divider--> */}
                                         <div className="divider-custom">
                                             <div className="divider-custom-line"></div>
-                                            <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
+                                            <div className="divider-custom-icon"><h5 className="text-uppercase">click image for deployment</h5></div>
                                             <div className="divider-custom-line"></div>
                                         </div>
                                         {/* <!-- Portfolio Modal - Image--> */}
@@ -215,7 +214,7 @@ function Modals () {
                                         {/* <!-- Icon Divider--> */}
                                         <div className="divider-custom">
                                             <div className="divider-custom-line"></div>
-                                            <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
+                                            <div className="divider-custom-icon"><h5 className="text-uppercase">click image for deployment</h5></div>
                                             <div className="divider-custom-line"></div>
                                         </div>
                                         {/* <!-- Portfolio Modal - Image--> */}
@@ -266,7 +265,7 @@ function Modals () {
                                         {/* < />!-- Icon Divider--> */}
                                         <div className="divider-custom">
                                             <div className="divider-custom-line"></div>
-                                            <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
+                                            <div className="divider-custom-icon"><h5 className="text-uppercase">click image for deployment</h5></div>
                                             <div className="divider-custom-line"></div>
                                         </div>
                                         {/* < />!-- Portfolio Modal - Image--> */}
