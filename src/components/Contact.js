@@ -28,7 +28,7 @@ function Contact () {
                         <!-- * * SB Forms Contact Form * *-->
                         <!-- * * * * * * * * * * * * * * *-->
                         */}
-                        <form id="contactForm" data-sb-form-api-token="7abbae9f-c0a5-4c84-8554-4e6da348b5bb">
+                        <form id="contactForm" data-sb-form-api-token="a24b14f3-eb37-4d52-9e2d-390cbaf28220">
                             {/* <!-- Name input--> */}
                             <div className="form-floating mb-3">
                                 <input className="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />

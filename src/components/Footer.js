@@ -2,7 +2,7 @@ import React from "react";
 
 // import "../styles/styles.css";
 
-function Footer () {
+function Footer() {
     return (
         // <!-- Footer-->
         <footer className="footer text-center">
@@ -21,6 +21,7 @@ function Footer () {
                         <h4 className="text-uppercase mb-4">My Links</h4>
                         <a className="btn-rounded btn-outline-light btn-social mx-1" href="https://github.com/nkrilis"><i className="fab fa-fw fa-github"></i></a>
                         <a className="btn-rounded btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/nicholas-krilis/"><i className="fab fa-fw fa-linkedin-in"></i></a>
+                        <a className="btn-rounded btn-outline-light btn-social mx-1" href={require("./../files/Nicholas-Krilis-Resume-2022.pdf")} target="_blank" rel="noreferrer"><i className="fa-regular fa-file"></i></a>
                     </div>
                     {/* <!-- Footer About Text--> */}
                     <div className="col-lg-4">
